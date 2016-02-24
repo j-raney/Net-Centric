@@ -1,0 +1,202 @@
+body{
+    font-family: Arial Narrow;
+    width: 810px;
+}
+
+#BarAbove{
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+}
+
+#EyeCatcher{
+    text-align:center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-bottom: 0px;
+}
+
+#SubEyeCatcher{
+    text-align: center;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+#DorothyQuote{
+    background-color: lightgoldenrodyellow;
+    text-align: justify;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    width: 454px;
+    padding: 7px 25px;
+    border: 2px solid black;
+    margin: 7px 0px;
+}
+
+#Ad1{
+    font-size: 15px;
+    width: 218px;
+    float: left;
+}
+
+#Ad2{
+    font-size: 15px;
+    width: 224px;
+    position: absolute;
+    left: 265px;
+}
+
+#Ad3{
+    float: right;
+    position: relative;
+    bottom: 134px;
+    width: 255px;
+}
+
+#ComesWith{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    width: 255px;
+    border: 1px solid black;
+    margin: 0;
+    line-height: 1.2;
+}
+
+#NEW{
+    color: #DD0505;
+    margin: 0 0 -7px;
+}
+
+#NowComesWith{
+    color: #DD0505;
+    margin: 0;
+}
+
+#MoreArea{
+    color: #DD0505;
+    font-size: 17px;
+}
+
+#FreeStuff{
+    color: white;
+    background-color: #DD0505;
+    font-size: 21px;
+    font-style: italic;
+    text-align: center;
+    float: right;
+    position: relative;
+    bottom: 84px;
+    width: 257px;
+    padding-top: 2px;
+    margin: 0;
+}
+
+#FREE{
+    margin: 0;
+}
+
+#PerkList{
+    background-color: lightgoldenrodyellow;
+    float: right;
+    position: relative;
+    left: 275px;
+    width: 235px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+#CallNow{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    bottom: 5px;
+    width: 255px;
+}
+
+#PromoCode{
+    text-align: center;
+    font-style: italic;
+    float: right;
+    width: 255px;
+    position: relative;
+    left: 255px;
+    top: 40px;
+}
+
+#PhoneNum{
+    text-align: center;
+    font-size: 35px;
+    color: #1188FF;
+    float: right;
+    position: relative;
+    top: 35px;
+    left: 255px;
+    width: 255px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+#Logo{
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    width: 228px;
+}
+
+#Copyright{
+    text-align: center;
+    font-size: 10px;
+    float: right;
+    position: relative;
+    left: 225px;
+    top: 85px;
+    width: 255px;
+
+}
+
+#Number{
+    font-size:11px;
+    float: right;
+    position: relative;
+    left: 500px;
+    top: 90px;
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+}
+
+#Advertisement{
+    font-size: 11px;
+    position: relative;
+    top: 25px;
+    left: 255px;
+    text-align: center;
+    width: 255px;
+    text-space: 6px;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0.4;
+}
+
+.DorothyLastLine{
+    word-spacing: 1px;
+}

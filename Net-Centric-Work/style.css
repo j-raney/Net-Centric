@@ -1,0 +1,57 @@
+body 
+{ 
+    font-size: 98%;                         /* Default font and size for page */
+    font-family: 'Comic Sans MS', Arial, Times New Roman, Sans-Serif; 
+    background-color: ddffdd;               /* Very light green background    */
+}
+ul#tabs 
+{ 
+    list-style-type: none;                  /* No bullets                     */
+    margin: 0;                              /* Positive top margin            */
+    padding: 0 0 0.3em 0;                   /* Bottom padding on tabs to make */
+                                            /*  them adjacent to the content  */
+}
+ul#tabs li 
+{ 
+    display: inline;                        /* Tabs put in one horizontal row */
+    padding: 12px;                          /* Text in tab padded for         */
+}                                           /*  readability                   */
+
+ul#tabs li a 
+{ 
+    color: #42454a;                         /* Text and background color made */
+    background-color: #eebbbb;              /*  to appear behind the main tab */
+    border: 1px solid #c9c3ba;              /* Border makes the tab a tab     */
+    border-bottom: none;                    /* Uses the tab content's border  */
+    border-top-left-radius: 7px;            /* Rounds top corners for styling */
+    border-top-right-radius: 7px;
+    padding: 0.3em 1.5em 0.3em 1.5em;       /* Tabs are separated by space    */
+    text-decoration: none;                  /* Unselected tabs not bolded     */
+
+}
+
+ul#tabs li a:hover 
+{ 
+    background-color: #ffdddd;              /* Mousing over tabs changes the  */
+}                                           /*  background color to the color */
+                                            /*  of a selected tab             */
+ul#tabs li a.selected 
+{ 
+    color: #000;                            /* Text and background color made */
+    background-color: #ffdddd;              /*  to match tab content box      */
+    font-weight: bold;                      /* Selected tab bolded and padded */
+    padding: 0.7em 2em 0.38em 2em;          /*  differently to stand out      */
+}
+
+div.tabContent 
+{ 
+    border: 1px solid #c9c3ba;              /* Border for tab content         */
+    padding: 0.5em;                         /* Text padded for aesthetic      */
+    background-color: #ffdddd;              /* Background matches tab itself  */
+    border-radius: 7px;                     /* Rounded corners for styling    */
+}
+
+div.tabContent.hide 
+{ 
+    display: none;                          /* Content with unselected tabs   */
+}                                           /*  made hidden                   */
