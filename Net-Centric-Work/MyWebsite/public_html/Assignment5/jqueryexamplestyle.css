@@ -1,0 +1,28 @@
+body
+{
+    font-size: 24px;
+    background-color: darkslategray;
+    font-family: Calibri, Times New Roman, Sans-Serif;
+    color: goldenrod
+}
+
+#fader
+{
+    font-weight: bold;
+}
+
+#sansToWingdings
+{
+    font-family: 'Comic Sans MS';
+}
+
+#backgroundMusic
+{
+    color: lightskyblue;
+    font-family: Arial;
+}
+
+iframe
+{
+    display: none;
+}
