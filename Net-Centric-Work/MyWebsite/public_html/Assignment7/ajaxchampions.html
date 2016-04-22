@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Champions Database Page</title>
+        <link type="text/css" rel="stylesheet" href="ajaxchampionsstyle.css"/>
+        <script src="ajaxchampionsscript.js"></script>
+        <script src="jquery.js"></script>
+    </head>
+    <body onload = "onLoad()">
+        <div id="left">
+            <p>
+                Champion Name:<br>
+                Primary Lane:<br>
+                Primary Role:<br>
+                <button type="button" onclick="insertChampion()">Insert</button><br><br>
+                <button type="button" onclick="showChampions()">Show Champions</button>
+            </p>
+        </div>
+        <div id="right"><br>
+            <input id="ChampionName" type=text value=""><br>
+            <select id="Lane">
+                <option value=1>Top</option>
+                <option value=2>Jungle</option>
+                <option value=3>Middle</option>
+                <option value=4>Bottom</option>
+            </select><br>
+            <select id="Role">
+                <option value=1>Assassin</option>
+                <option value=2>Fighter</option>
+                <option value=3>Mage</option>
+                <option value=4>Marksman</option>
+                <option value=5>Support</option>
+                <option value=6>Tank</option>
+            </select><br>
+        </div>
+        <div id ="below">
+            <p id="results"></p>
+            <p id="champions"></p>
+        </div>
+    </body>
+</html>

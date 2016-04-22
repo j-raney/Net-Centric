@@ -2,7 +2,7 @@ body
 { 
     font-size: 98%;                         /* Default font and size for page */
     font-family: 'Comic Sans MS', Arial, Times New Roman, Sans-Serif; 
-    background-color: #ddffdd;               /* Very light green background    */
+    background-color: #ddffdd;              /* Very light green background    */
 }
 ul#tabs 
 { 
@@ -55,3 +55,10 @@ div.tabContent.hide
 { 
     display: none;                          /* Content with unselected tabs   */
 }                                           /*  made hidden                   */
+
+iframe
+{
+    width: 916px;
+    height: 513px;
+    border: 0px;
+}

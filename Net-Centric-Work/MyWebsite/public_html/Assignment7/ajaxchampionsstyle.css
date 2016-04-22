@@ -1,0 +1,55 @@
+body
+{
+    font-size: 200%;
+    color: #006600;
+    font-family: "Jokerman", Times New Roman;
+    background-color: #eeeeff;
+}
+
+input
+{
+    font-size: 70%;
+    color: #990000;
+    font-family: "Jokerman", Times New Roman;
+}
+
+select
+{
+    font-size: 75%;
+    color: #990000;
+    font-family: "Jokerman", Times New Roman;
+}
+
+button
+{
+    font-size: 80%;
+    color: #000088;
+    font-family: "Jokerman", Times New Roman;
+}
+
+#left
+{
+    float: left;
+    text-align: right;
+}
+
+#right
+{
+    float: left;
+    position: relative;
+    left: 15px;
+    bottom: 13px;
+}
+
+#center
+{
+    text-align: center;
+}
+
+#below
+{
+    font-family: "Comic Sans MS", Time New Roman;
+    color: black;
+    float: left;
+    position: relative;
+}
